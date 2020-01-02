@@ -6,8 +6,7 @@ import App from './App';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import {MuiThemeProvider} from '@material-ui/core/styles';
 import {SnackbarProvider} from 'notistack';
-
-import {darkTheme, lightTheme, nieTheme} from '../styles/theme';
+import {darkTheme, lightTheme } from '../styles/theme';
 
 const Root = (props) => {
   const {store, history} = props;
@@ -17,7 +16,6 @@ const Root = (props) => {
       return darkTheme;
     else
       return lightTheme;
-     // return nieTheme;
   };
 
   return (

@@ -281,194 +281,194 @@ export const darkTheme = createMuiTheme({
   },
 });
 
-export const nieTheme = createMuiTheme({
-  palette: {
-    type: 'light',
-    common: {
-      main: colours.constants.black,
-      black: colours.constants.black,
-      pureBlack: colours.constants.pureBlack,
-      white: colours.constants.white,
-      pureWhite: colours.constants.pureWhite,
-      transparent: colours.constants.transparent,
-    },
-
-    primary: {
-      light: colours.nieHeader.light,
-      main: colours.nieHeader.main,
-      dark: colours.nieHeader.dark,
-    },
-
-    secondary: {
-      light: colours.nieSidebarPrimary.light,
-      main: colours.nieSidebarPrimary.main,
-      dark: colours.nieSidebarPrimary.dark,
-    },
-
-    tertiary: {
-      light: colours.nieSidebarSecondary.light,
-      main: colours.nieSidebarSecondary.main,
-      dark: colours.nieSidebarSecondary.dark,
-    },
-
-    titleIcons: {
-      light: colours.nieTitleIcons.light,
-      main: colours.nieTitleIcons.main,
-      dark: colours.nieTitleIcons.dark,
-    },
-
-    icons: {
-      light: colours.nieIcons.light,
-      main: colours.nieIcons.main,
-      dark: colours.nieIcons.dark,
-    },
-
-    menuDivider: {
-      light: colours.nieMenuDivider.light,
-      main: colours.nieMenuDivider.main,
-      dark: colours.nieMenuDivider.dark,
-    },
-
-    active: {
-      light: colours.nieActiveColour.light,
-      main: colours.nieActiveColour.main,
-      dark: colours.nieActiveColour.dark,
-      tab: colours.nieActiveColour.tab,
-    },
-
-    error: {
-      light: colours.constants.errorLight,
-      main: colours.constants.errorMain,
-      dark: colours.constants.errorDark,
-    },
-
-    text: {
-      main: colours.nieText.main,
-      title: colours.nieText.menuTitles,
-      subtitles: colours.nieText.menuSubtitles,
-      disabled: colours.nieText.disabled,
-      hyperlink: colours.nieText.hyperlink,
-      contrastText: colours.constants.contrastText,
-    },
-
-    login: {
-      light: colours.nieLoginColour.light,
-      main: colours.nieLoginColour.main,
-      dark: colours.nieLoginColour.dark,
-      text: colours.nieLoginColour.text,
-    },
-  },
-
-  overrides: {
-    MuiTypography: {
-      h5: {
-        color: colours.nieSidebarPrimary.main,
-      }
-    },
-
-    MuiLink: {
-      root: {
-        color: colours.nieText.hyperlink,
-        textDecoration: 'none',
-        cursor: 'pointer',
-        marginBottom: '1rem',
-      },
-    },
-
-    MuiIconButton: {
-      root: {
-        color: colours.nieIcons.main,
-      },
-    },
-
-    MuiCheckbox:{
-      colorPrimary: {
-        color: colours.nieHeader.main,
-        '&$checked': {
-          color: colours.nieActiveColour.main,
-        },
-        '&$disabled': {
-          color: colours.nieText.disabled,
-        },
-      },
-
-      colorSecondary: {
-        color: colours.nieHeader.main,
-        '&$checked': {
-          color: colours.nieActiveColour.dark,
-        },
-        '&$disabled': {
-          color: colours.nieText.disabled,
-        },
-      },
-    },
-
-    MuiSwitch:{
-      colorPrimary: {
-        color: colours.nieHeader.main,
-        '&$checked': {
-          color: colours.nieActiveColour.main,
-        },
-        '&$disabled': {
-          color: colours.nieText.disabled,
-        },
-      },
-
-      colorSecondary: {
-        color: colours.nieHeader.main,
-        '&$checked': {
-          color: colours.nieActiveColour.dark,
-        },
-        '&$disabled': {
-          color: colours.nieText.disabled,
-        },
-      },
-
-      track: {
-        backgroundColor: colours.nieText.main,
-      },
-    },
-
-    MuiSvgIcon: {
-      root: {
-        cursor: 'pointer',
-      },
-    },
-
-    MuiTab: {
-      root: {
-        minHeight: '40px',
-      },
-
-      wrapper: {
-        textAlign: 'left',
-        alignItems: 'left',
-        fontSize: '12px',
-        paddingLeft: '65px',
-        textTransform: 'capitalize',
-      },
-    },
-
-    MuiTabs: {
-      root: {
-        backgroundColor: colours.nieSidebarPrimary.main,
-      },
-    },
-
-    MuiSpeedDial: {
-      fab: {
-        backgroundColor: colours.nieHeader.main,
-        '&:hover': {
-          backgroundColor: colours.nieHeader.light,
-        },
-      },
-    },
-
-    MuiFab: {
-      root: {
-        width: '45px',
-        height: '45px',
-      },
-    },
-  },
-});
+// export const nieTheme = createMuiTheme({
+//   palette: {
+//     type: 'light',
+//     common: {
+//       main: colours.constants.black,
+//       black: colours.constants.black,
+//       pureBlack: colours.constants.pureBlack,
+//       white: colours.constants.white,
+//       pureWhite: colours.constants.pureWhite,
+//       transparent: colours.constants.transparent,
+//     },
+//
+//     primary: {
+//       light: colours.nieHeader.light,
+//       main: colours.nieHeader.main,
+//       dark: colours.nieHeader.dark,
+//     },
+//
+//     secondary: {
+//       light: colours.nieSidebarPrimary.light,
+//       main: colours.nieSidebarPrimary.main,
+//       dark: colours.nieSidebarPrimary.dark,
+//     },
+//
+//     tertiary: {
+//       light: colours.nieSidebarSecondary.light,
+//       main: colours.nieSidebarSecondary.main,
+//       dark: colours.nieSidebarSecondary.dark,
+//     },
+//
+//     titleIcons: {
+//       light: colours.nieTitleIcons.light,
+//       main: colours.nieTitleIcons.main,
+//       dark: colours.nieTitleIcons.dark,
+//     },
+//
+//     icons: {
+//       light: colours.nieIcons.light,
+//       main: colours.nieIcons.main,
+//       dark: colours.nieIcons.dark,
+//     },
+//
+//     menuDivider: {
+//       light: colours.nieMenuDivider.light,
+//       main: colours.nieMenuDivider.main,
+//       dark: colours.nieMenuDivider.dark,
+//     },
+//
+//     active: {
+//       light: colours.nieActiveColour.light,
+//       main: colours.nieActiveColour.main,
+//       dark: colours.nieActiveColour.dark,
+//       tab: colours.nieActiveColour.tab,
+//     },
+//
+//     error: {
+//       light: colours.constants.errorLight,
+//       main: colours.constants.errorMain,
+//       dark: colours.constants.errorDark,
+//     },
+//
+//     text: {
+//       main: colours.nieText.main,
+//       title: colours.nieText.menuTitles,
+//       subtitles: colours.nieText.menuSubtitles,
+//       disabled: colours.nieText.disabled,
+//       hyperlink: colours.nieText.hyperlink,
+//       contrastText: colours.constants.contrastText,
+//     },
+//
+//     login: {
+//       light: colours.nieLoginColour.light,
+//       main: colours.nieLoginColour.main,
+//       dark: colours.nieLoginColour.dark,
+//       text: colours.nieLoginColour.text,
+//     },
+//   },
+//
+//   overrides: {
+//     MuiTypography: {
+//       h5: {
+//         color: colours.nieSidebarPrimary.main,
+//       }
+//     },
+//
+//     MuiLink: {
+//       root: {
+//         color: colours.nieText.hyperlink,
+//         textDecoration: 'none',
+//         cursor: 'pointer',
+//         marginBottom: '1rem',
+//       },
+//     },
+//
+//     MuiIconButton: {
+//       root: {
+//         color: colours.nieIcons.main,
+//       },
+//     },
+//
+//     MuiCheckbox:{
+//       colorPrimary: {
+//         color: colours.nieHeader.main,
+//         '&$checked': {
+//           color: colours.nieActiveColour.main,
+//         },
+//         '&$disabled': {
+//           color: colours.nieText.disabled,
+//         },
+//       },
+//
+//       colorSecondary: {
+//         color: colours.nieHeader.main,
+//         '&$checked': {
+//           color: colours.nieActiveColour.dark,
+//         },
+//         '&$disabled': {
+//           color: colours.nieText.disabled,
+//         },
+//       },
+//     },
+//
+//     MuiSwitch:{
+//       colorPrimary: {
+//         color: colours.nieHeader.main,
+//         '&$checked': {
+//           color: colours.nieActiveColour.main,
+//         },
+//         '&$disabled': {
+//           color: colours.nieText.disabled,
+//         },
+//       },
+//
+//       colorSecondary: {
+//         color: colours.nieHeader.main,
+//         '&$checked': {
+//           color: colours.nieActiveColour.dark,
+//         },
+//         '&$disabled': {
+//           color: colours.nieText.disabled,
+//         },
+//       },
+//
+//       track: {
+//         backgroundColor: colours.nieText.main,
+//       },
+//     },
+//
+//     MuiSvgIcon: {
+//       root: {
+//         cursor: 'pointer',
+//       },
+//     },
+//
+//     MuiTab: {
+//       root: {
+//         minHeight: '40px',
+//       },
+//
+//       wrapper: {
+//         textAlign: 'left',
+//         alignItems: 'left',
+//         fontSize: '12px',
+//         paddingLeft: '65px',
+//         textTransform: 'capitalize',
+//       },
+//     },
+//
+//     MuiTabs: {
+//       root: {
+//         backgroundColor: colours.nieSidebarPrimary.main,
+//       },
+//     },
+//
+//     MuiSpeedDial: {
+//       fab: {
+//         backgroundColor: colours.nieHeader.main,
+//         '&:hover': {
+//           backgroundColor: colours.nieHeader.light,
+//         },
+//       },
+//     },
+//
+//     MuiFab: {
+//       root: {
+//         width: '45px',
+//         height: '45px',
+//       },
+//     },
+//   },
+// });
