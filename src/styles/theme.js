@@ -4,6 +4,11 @@ import colours from '../constants/colours';
 export const lightTheme = createMuiTheme({
   palette: {
     type: 'light',
+
+    background: {
+      appBar: colours.lightModeHeader.light
+    },
+
     common: {
       main: colours.constants.black,
       black: colours.constants.black,
